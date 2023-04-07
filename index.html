@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Practico</title>
+</head>
+<body>
+    <div>
+        <h1>Datos del perfil</h1>
+        <hr>
+        <img src="https://blog.centrodeelearning.com/wp-content/uploads/2020/11/programaci%C3%B3n-oficio-digital.jpg" alt="Programación" width="700" height="500">
+        <ul>
+            <li>Nombre: Francisco</li>
+            <li>Apellido: Chung</li>
+            <li>Edad: 32 años</li>
+            <li>Email: fr.chung90@gmail.com</li>
+        </ul>
+        <p><b>Información sobre mi</b></p>
+        <p>Soy de Capital Federal. Estudie para contador público en la UBA, pero mientras mas avanzaba en la carrera menos me veia trabajando de eso. Como siempre me interesó la tecnología, este año decidí estudiar programación y bueno aca estoy, con muchas ganas de aprender.
+        </p>
+    </div>
+    <hr>
+    <p><b>Formulario de contacto</b></p>
+    <form action="">
+        <label for="nombre"><b>Nombre:</b></label>
+        <input type="text" name="" id="nombre" placeholder="Ingrese su nombre"/>
+        <br><br>
+        <label for="apellido"><b>Apellido:</b></label>
+        <input type="text" name="" id="apellido" placeholder="Ingrese su apellido"/>
+        <br><br>
+        <label for="correo"><b>Email:</b></label>
+        <input type="email" name="" id="correo" placeholder="Ingrese su email" required/>
+        <br><br>
+        <label for="birthday"><b>Fecha de nacimiento:</b></label>
+        <input type="date" name="" id="birthday"/>
+        <br><br>
+        <label for="phone"><b>Teléfono:</b></label>
+        <input type="tel" name="" id="phone" placeholder="Ingrese su teléfono" required/>
+        <br><br>
+        <label for="provincia"><b>Provincia</b></label>
+        <select name="" id="">
+            <option value="" selected="selected">- Seleccionar -</option>
+            <option value="1">Buenos Aires</option>
+            <option value="2">Catamarca</option>
+            <option value="3">Chaco</option>
+            <option value="4">Chubut</option>
+            <option value="5">Ciudad Autonoma de Buenos Aires</option>
+            <option value="6">Córdoba</option>
+            <option value="7">Corrientes</option>
+            <option value="8">Entre Ríos</option>
+            <option value="9">Formosa</option>
+            <option value="10">Jujuy</option>
+            <option value="11">La Pampa</option>
+            <option value="12">La Rioja</option>
+            <option value="13">Mendoza</option>
+            <option value="14">Misiones</option>
+            <option value="15">Neuquén</option>
+            <option value="16">Río Negro</option>
+            <option value="17">Salta</option>
+            <option value="18">San Juan</option>
+            <option value="19">San Luis</option>
+            <option value="20">Santa Cruz</option>
+            <option value="21">Santa Fe</option>
+            <option value="22">Santiago del Estero</option>
+            <option value="23">Tierra del Fuego</option>
+            <option value="24">Tucumán</option>
+        </select>
+        <br><br>
+        <b>Seleccione la carrera en la que se haya anotado:</b><br><br>
+        <label for="fullstack">Programación web full stack</label>
+        <input type="radio" name="curso" id="fullstack">
+        <label for="frontend">Programación front end</label>
+        <input type="radio" name="curso" id="frontend">
+        <label for="ux-ui">Diseño ux-ui</label>
+        <input type="radio" name="curso" id="ux-ui">
+        <br><br>
+        <label for="texto"><b>Comentarios:</b></label><br>
+        <textarea name="" id="texto" cols="50" rows="10" placeholder="Ingrese algún comentario o sugerencia adicional"></textarea>
+        <br><br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
