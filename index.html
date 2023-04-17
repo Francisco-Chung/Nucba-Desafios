@@ -5,19 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio Practico</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <div>
-        <h1>Datos del perfil</h1>
+        <h1 class="h1">Datos del perfil</h1>
         <hr>
-        <img src="https://blog.centrodeelearning.com/wp-content/uploads/2020/11/programaci%C3%B3n-oficio-digital.jpg" alt="Programación" width="700" height="500">
+        <img class="img-profile" src="https://blog.centrodeelearning.com/wp-content/uploads/2020/11/programaci%C3%B3n-oficio-digital.jpg" alt="Programación" width="500" height="300">
+        <p><b>Información sobre mi</b></p>
         <ul>
             <li>Nombre: Francisco</li>
             <li>Apellido: Chung</li>
             <li>Edad: 32 años</li>
             <li>Email: fr.chung90@gmail.com</li>
         </ul>
-        <p><b>Información sobre mi</b></p>
         <p>Soy de Capital Federal. Estudie para contador público en la UBA, pero mientras mas avanzaba en la carrera menos me veia trabajando de eso. Como siempre me interesó la tecnología, este año decidí estudiar programación y bueno aca estoy, con muchas ganas de aprender.
         </p>
     </div>
@@ -68,7 +69,8 @@
             <option value="24">Tucumán</option>
         </select>
         <br><br>
-        <b>Seleccione la carrera en la que se haya anotado:</b><br><br>
+        <b>Seleccione la carrera en la que se haya anotado:</b>
+        <br><br>
         <label for="fullstack">Programación web full stack</label>
         <input type="radio" name="curso" id="fullstack">
         <label for="frontend">Programación front end</label>
@@ -77,9 +79,10 @@
         <input type="radio" name="curso" id="ux-ui">
         <br><br>
         <label for="texto"><b>Comentarios:</b></label><br>
-        <textarea name="" id="texto" cols="50" rows="10" placeholder="Ingrese algún comentario o sugerencia adicional"></textarea>
+        <textarea name="" id="texto" cols="50" rows="10" placeholder="Ingrese algún comentario o sugerencia"></textarea>
         <br><br>
         <input type="submit" value="Enviar">
+        <input type="reset" name="" id="">
     </form>
 </body>
 </html>
